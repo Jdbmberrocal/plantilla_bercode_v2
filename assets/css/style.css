@@ -1,0 +1,109 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+html,
+body {
+    background-image: url('https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1920&h=1080&fit=crop&ixid=eyJhcHBfaWQiOjF9');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    /* background: linear-gradient(to right, #3032a3, #3873f3); */
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3,
+h4,
+h5 {
+    color: white;
+}
+
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    /* background-color: #FFC312; */
+    background: linear-gradient(to right, #3032a3, #3873f3);
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.login_btn {
+    color: white;
+    background-color: #70716d !important;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.login_btn:hover {
+    color: white;
+    background: linear-gradient(to right, #3032a3, #3873f3);
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+@keyframes animateMainHeaderFixed {
+    0% {
+        transform: translateY(-100%);
+        opacity: .5
+    }
+    50% {
+        opacity: .8
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+.fixed {
+    position: fixed !important;
+    animation-name: animateMainHeaderFixed;
+    animation-duration: .7s;
+}
+
+.w-boton {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
